@@ -1,0 +1,78 @@
+/* Styling for the main container */
+.Conter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling for the heading */
+  .Conter h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Styling for the input field */
+  .Conter input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #333;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the timer display */
+  .Conter div:nth-child(3) {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #222;
+    background: #aab4d1;
+  }
+  
+  /* Styling for the timer controls */
+  .timer-controls {
+    display: flex;
+    gap: 10px;
+    color: navy;
+  }
+  
+  /* Styling for buttons */
+  .timer-controls button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .timer-controls button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Start button */
+  .timer-controls button:nth-child(1) {
+    background-color: green;
+    color: white;
+  }
+  
+  /* Stop button */
+  .timer-controls button:nth-child(2) {
+    background-color: red;
+    color: white;
+  }
+  
+  /* Reset button */
+  .timer-controls button:nth-child(3) {
+    background-color: blue;
+    color: white;
+  }
+  
